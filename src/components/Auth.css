@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login{ 
+    background: url(https://pbs.twimg.com/media/Eq2iR4lXEAAOhe7.jpg);
+    height: 808px;
+    margin-top: -45px;
+    padding-top: 4px;
+  }
+
+  
+  .login .loginContainer {
+    padding: 100px;
+    width: 83%;
+    margin-left: 9%;
+    margin-top: -7.9%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient( ellipse at left bottom, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);    
+    box-shadow: 0 50px 70px -20px rgb(0 0 0 / 80%);
+  }
+  
+  .login .loginContainer label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .login .loginContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  .login .loginContainer .btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+    color: #fff;
+  }
+  
+  .login .loginContainer .btnContainer p span {
+    color: yellow;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .login .loginContainer .btnContainer p span:hover {
+    color: red;
+  }
+  
+  .login .loginContainer .errorMsg {
+    color: red;
+    font-size: 16px;
+  }
+  
+  .login .navbar-logo{
+    display: flex;
+    margin-top: 11%;
+    margin-left: 15.3%;
+    font-size: 3rem;
+
+  }
+
+  
+  
